@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Web Developer Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="textContainer">
+        <h1 class="neonText">Welcome</h1>
+    </div>
+    
+    <p>This webpage was created as a project for my Basic Web Developer Assessment. Wish me luck!</p>
+    <br>
+    <br>
+
+    <!-- Carousel -->
+    <div class="slideshow-container">
+        <div class="slideshow-inner">
+            <div class="mySlides fade">
+        
+                <img  src='Carousel/Carousel1.jpg' width="1200px" height="900px"alt="  "/>
+
+                <div class="text"><br></div>/>
+            </div>
+
+            <div class="mySlides fade">
+            
+                <img  src='Carousel/Carousel2.jpg' width="1200px" height="900px"  alt="Your potential. Our passion"/>
+
+                <div class="text">Your potential. Our passion</div>
+            </div>
+        
+            <div class="mySlides fade">
+        
+                <img  src='Carousel/Carousel3.jpg' width="1300px" height="900px"  alt="We Make IT Happen"/>
+
+                <div class="text">We Make It Happen</div>
+            </div>
+            
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>   
+
+
+        </div>
+    </div>
+
+    <div class="demo-container">
+        <div class="modal-control">
+            <p id="quote"></p>
+            <button id="addToCart" href="#"><img src=cart.png width="300" height="300"></button>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    
+    <div id="example"></div>
+
+    <!-- CART -->
+
+    <div id="cartModal" class="ebcf_modal">
+
+        <div class="ebcf_modal-content">
+            <span class="modal_close">&times;</span>
+            <p>------------------------</p>
+            <div id="itemCart"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

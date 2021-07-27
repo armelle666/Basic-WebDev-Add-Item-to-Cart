@@ -1,0 +1,37 @@
+{   "gallery":[
+
+    {
+        "Image": "Items/Mouse/item1.png",
+        "ID": "001",
+        "Name": "LUOM Mouse",
+        "Brand": "LUOM",
+        "Description": "USB Mouse, Red",
+        "Price": "P150.00"
+    },
+    {
+        "Image": "Items/Mouse/item2.png",
+        "ID": "002",
+        "Name": "Gaming Mouse",
+        "Brand": "AUROZA",
+        "Description": "Cable Mouse, Black&Blue",
+        "Price": "P350.00"
+    },
+    {
+        "Image": "Items/Mouse/item3.png",
+        "ID": "003",
+        "Name": "Gaming Mouse",
+        "Brand": "II",
+        "Description": "Customized Cable Mouse, Orange",
+        "Price": "P500.00"
+    },
+    {
+        "Image": "Items/iPhone/iPhone11.png",
+        "ID": "004",
+        "Name": "iPhone 11",
+        "Brand": "Apple",
+        "Description": "iPhone 11 succeeds the iPhone XR, and it features a 6.1-inch LCD Liquid Retina HD display.",
+        "Price": "P38,000.00"
+    }
+]
+}
+
